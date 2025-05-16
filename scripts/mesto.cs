@@ -8,19 +8,39 @@ public class mesto : MonoBehaviour
     public int portNumber;
     public GameObject object1;
     public GameObject object2;
+    public GameObject object3;
     public Vector3 rotationCoordinates;
-
+public RouterController routerController; // ← добавь поле
     [Header("Ссылки на системы")]
     public SwitchSimulator switchSimulator;
 
     [Header("Информация (только для чтения)")]
     [SerializeField] private string vlanInfo = "Не подключен"; // Отображается в инспекторе
 
+void Start() {
+    if (switchSimulator == null)
+        switchSimulator = FindObjectOfType<SwitchSimulator>();
+    if (routerController == null)
+        routerController = FindObjectOfType<RouterController>();
+}
+void Update() {
+    if (switchSimulator != null && switchSimulator.isActiveAndEnabled) {
+        int vlanId;
+        if (switchSimulator.TryGetVlanForPort(portNumber, out vlanId))
+            vlanInfo = "VLAN: " + vlanId;
+        else
+            vlanInfo = "VLAN не назначен";
+    } else if (routerController != null && routerController.isActiveAndEnabled) {
+        // Для RouterController можно использовать порт = VLAN
+        vlanInfo = $"VLAN: {portNumber}";
+    }
+}
+
     void OnTriggerEnter(Collider other)
     {
         GameObject target = other.gameObject;
 
-        if (target == object1 || target == object2)
+        if (target == object1 || target == object2 || target == object3)
         {
             target.transform.position = transform.position;
             target.transform.rotation = Quaternion.Euler(rotationCoordinates);
@@ -29,13 +49,20 @@ public class mesto : MonoBehaviour
             if (rb != null)
                 rb.constraints = RigidbodyConstraints.FreezePosition;
 
-            if (switchSimulator != null)
-            {
-                int vlan = switchSimulator.GetVlanForPort(portNumber);
-                vlanInfo = vlan != -1 ? $"VLAN {vlan}" : "VLAN не назначен"; // обновление инфо
-                string log = $"К порту {portNumber} ({vlanInfo}) подключено устройство: {target.name}";
-                switchSimulator.LogAction(log);
-            }
+            if (switchSimulator != null && switchSimulator.isActiveAndEnabled)
+{
+    int vlan = switchSimulator.GetVlanForPort(portNumber);
+    vlanInfo = vlan != -1 ? $"VLAN {vlan}" : "VLAN не назначен";
+    string log = $"К порту {portNumber} ({vlanInfo}) подключено устройство: {target.name}";
+    switchSimulator.LogAction(log);
+}
+else if (routerController != null && routerController.isActiveAndEnabled)
+{
+    vlanInfo = $"VLAN {portNumber}";
+    string log = $"К порту {portNumber} (Router) подключено устройство: {target.name}";
+    routerController.LogAction(log);
+}
+
 
             CableConnection connection = target.GetComponentInParent<CableConnection>();
             if (connection != null)
@@ -54,15 +81,22 @@ public class mesto : MonoBehaviour
     {
         GameObject target = other.gameObject;
 
-        if (target == object1 || target == object2)
+        if (target == object1 || target == object2 || target == object3)
         {
-            if (switchSimulator != null)
-            {
-                int vlan = switchSimulator.GetVlanForPort(portNumber);
-                vlanInfo = vlan != -1 ? $"VLAN {vlan}" : "VLAN не назначен"; // обновление инфо
-                string log = $"От порта {portNumber} ({vlanInfo}) отключено устройство: {target.name}";
-                switchSimulator.LogAction(log);
-            }
+            if (switchSimulator != null && switchSimulator.isActiveAndEnabled)
+{
+    int vlan = switchSimulator.GetVlanForPort(portNumber);
+    vlanInfo = vlan != -1 ? $"VLAN {vlan}" : "VLAN не назначен";
+    string log = $"К порту {portNumber} ({vlanInfo}) подключено устройство: {target.name}";
+    switchSimulator.LogAction(log);
+}
+else if (routerController != null && routerController.isActiveAndEnabled)
+{
+    vlanInfo = $"VLAN {portNumber}";
+    string log = $"К порту {portNumber} (Router) подключено устройство: {target.name}";
+    routerController.LogAction(log);
+}
+
         }
     }
 }

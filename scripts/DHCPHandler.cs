@@ -14,83 +14,114 @@ public class DHCPHandler : MonoBehaviour
 
     private SwitchSimulator switchSim;
 
+private RouterController routerController;
+
+public void AssignRouterController(RouterController controller)
+{
+    routerController = controller;
+}
+
     public void AssignSwitchSimulator(SwitchSimulator sim)
     {
         switchSim = sim;
     }
 
     public byte[] HandlePacket(byte[] transactionID, byte[] mac, byte messageType, int portNumber)
+{
+    int vlanId = switchSim?.GetVlanForPort(portNumber) ?? -1;
+
+    if (vlanId == -1 && routerController != null)
     {
-        if (!serverRunning || switchSim == null) return null;
-
-        string macStr = BitConverter.ToString(mac);
-        int vlanId = switchSim.GetVlanForPort(portNumber);
-
-        if (vlanId == -1)
-        {
-            Debug.LogWarning($"DHCPHandler: порт {portNumber} не принадлежит ни одному VLAN");
-            return null;
-        }
-
-        InitVlanPools(vlanId);
-
-        switch (messageType)
-        {
-            case 1: // DHCPDISCOVER
-                Debug.Log($"DHCPHandler: DISCOVER от {macStr} на порту {portNumber} (VLAN {vlanId})");
-                return OfferIP(macStr, vlanId);
-
-            case 3: // DHCPREQUEST
-                Debug.Log($"DHCPHandler: REQUEST от {macStr} на порту {portNumber} (VLAN {vlanId})");
-                return AcknowledgeIP(macStr, vlanId);
-
-            case 7: // DHCPRELEASE
-                Debug.Log($"DHCPHandler: RELEASE от {macStr} (VLAN {vlanId})");
-                ReleaseIP(macStr, vlanId);
-                return null;
-
-            default:
-                Debug.LogWarning("DHCPHandler: Неизвестный тип сообщения DHCP");
-                return null;
-        }
+        vlanId = portNumber; // если порт = VLAN для RouterController
     }
+
+    if (!serverRunning || (switchSim == null && routerController == null))
+        return null;
+
+    string macStr = BitConverter.ToString(mac);
+
+    if (vlanId == -1)
+    {
+        Debug.LogWarning($"DHCPHandler: порт {portNumber} не принадлежит ни одному VLAN");
+        return null;
+    }
+
+    Debug.Log($"[DHCPHandler] Обработка запроса. MAC: {macStr}, Port: {portNumber}, VLAN: {vlanId}, Type: {messageType}");
+
+    InitVlanPools(vlanId);
+
+    switch (messageType)
+    {
+        case 1: // DHCPDISCOVER
+            Debug.Log($"DHCPHandler: DISCOVER от {macStr} на порту {portNumber} (VLAN {vlanId})");
+            return OfferIP(macStr, vlanId);
+
+        case 3: // DHCPREQUEST
+            Debug.Log($"DHCPHandler: REQUEST от {macStr} на порту {portNumber} (VLAN {vlanId})");
+            return AcknowledgeIP(macStr, vlanId);
+
+        case 7: // DHCPRELEASE
+            Debug.Log($"DHCPHandler: RELEASE от {macStr} (VLAN {vlanId})");
+            ReleaseIP(macStr, vlanId);
+            return null;
+
+        default:
+            Debug.LogWarning("DHCPHandler: Неизвестный тип сообщения DHCP");
+            return null;
+    }
+}
+
+
 
     // Исправленный метод, который теперь принимает int portNumber
     public byte[] HandleRequestWithPort(byte[] transactionID, byte[] mac, int portNumber)
+{
+    return HandlePacket(transactionID, mac, 7, portNumber); // DHCPRELEASE
+}
+
+
+   private void InitVlanPools(int vlanId)
+{
+    if (!vlanLeases.ContainsKey(vlanId))
     {
-        return HandlePacket(transactionID, mac, 3, portNumber); // DHCPREQUEST
+        Debug.Log($"[DHCPHandler] Инициализация пула для VLAN {vlanId}");
+
+        vlanLeases[vlanId] = new Dictionary<string, string>();
+        vlanAllocatedIPs[vlanId] = new List<string>();
+        vlanIpPoolStart[vlanId] = $"192.168.{vlanId}.100";
+        vlanIpPoolEnd[vlanId] = $"192.168.{vlanId}.200";
+    }
+    else
+    {
+        Debug.Log($"[DHCPHandler] Пул VLAN {vlanId} уже инициализирован");
+    }
+}
+
+
+   private byte[] OfferIP(string macStr, int vlanId)
+{
+    Debug.Log($"[DHCPHandler] macStr: {macStr}, VLAN: {vlanId}");
+
+    if (vlanLeases[vlanId].ContainsKey(macStr))
+    {
+        Debug.Log($"[DHCPHandler] Уже назначен IP: {vlanLeases[vlanId][macStr]}");
+        return IPAddress.Parse(vlanLeases[vlanId][macStr]).GetAddressBytes();
     }
 
-    private void InitVlanPools(int vlanId)
+    string newIP = GenerateUniqueIP(vlanId);
+    if (newIP != null)
     {
-        if (!vlanLeases.ContainsKey(vlanId))
-        {
-            vlanLeases[vlanId] = new Dictionary<string, string>();
-            vlanAllocatedIPs[vlanId] = new List<string>();
-
-            // Пример генерации пула на основе VLAN: 192.168.{vlanId}.100 - 192.168.{vlanId}.200
-            vlanIpPoolStart[vlanId] = $"192.168.{vlanId}.100";
-            vlanIpPoolEnd[vlanId] = $"192.168.{vlanId}.200";
-        }
+        vlanLeases[vlanId][macStr] = newIP;
+        vlanAllocatedIPs[vlanId].Add(newIP);
+        Debug.Log($"[DHCPHandler] Назначен новый IP: {newIP}");
+        return IPAddress.Parse(newIP).GetAddressBytes();
     }
 
-    private byte[] OfferIP(string macStr, int vlanId)
-    {
-        if (vlanLeases[vlanId].ContainsKey(macStr))
-        {
-            return IPAddress.Parse(vlanLeases[vlanId][macStr]).GetAddressBytes();
-        }
+    Debug.LogWarning($"[DHCPHandler] Не удалось сгенерировать IP для MAC: {macStr} в VLAN {vlanId}");
+    return null;
+}
 
-        string newIP = GenerateUniqueIP(vlanId);
-        if (newIP != null)
-        {
-            vlanLeases[vlanId][macStr] = newIP;
-            vlanAllocatedIPs[vlanId].Add(newIP);
-            return IPAddress.Parse(newIP).GetAddressBytes();
-        }
 
-        return null;
-    }
 
     private byte[] AcknowledgeIP(string macStr, int vlanId)
     {

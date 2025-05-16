@@ -18,20 +18,27 @@ public class Player : MonoBehaviour
     }
 
     void Move()
-    {
-        float x_Move = Input.GetAxis("Horizontal");
-        float z_Move = Input.GetAxis("Vertical");
+{
+    float x_Move = 0f;
+    float z_Move = 0f;
 
-        // Берем направление движения относительно камеры
-        Vector3 move_Direction = transform.right * x_Move + transform.forward * z_Move;
-        
-        // Обнуляем влияние вертикального наклона (игнорируем Y)
-        move_Direction.y = 0f;
+    if (Input.GetKey(KeyCode.LeftArrow))
+        x_Move = -1f;
+    else if (Input.GetKey(KeyCode.RightArrow))
+        x_Move = 1f;
 
-        // Нормализуем вектор, чтобы диагональное движение не ускоряло игрока
-        if (move_Direction.magnitude > 1f)
-            move_Direction.Normalize();
+    if (Input.GetKey(KeyCode.UpArrow))
+        z_Move = 1f;
+    else if (Input.GetKey(KeyCode.DownArrow))
+        z_Move = -1f;
 
-        player.Move(move_Direction * speed_Move * Time.deltaTime);
-    }
+    Vector3 move_Direction = transform.right * x_Move + transform.forward * z_Move;
+    move_Direction.y = 0f;
+
+    if (move_Direction.magnitude > 1f)
+        move_Direction.Normalize();
+
+    player.Move(move_Direction * speed_Move * Time.deltaTime);
+}
+
 }

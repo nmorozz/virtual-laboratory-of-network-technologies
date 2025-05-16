@@ -19,14 +19,16 @@ def run_as_admin():
         sys.exit()
 
 def run_scripts(scripts):
-    """Запускает все переданные скрипты."""
     for script in scripts:
-        script_path = os.path.abspath(script)
-        if os.path.exists(script_path):
-            print(f"Запускаем {script}...")
-            subprocess.run(["python", script_path], check=True)
+        if script.endswith(".js"):
+            print(f"Запускаем Node.js сервер: {script}")
+            subprocess.run(["node", os.path.abspath(script)], check=True)
+        elif script.endswith(".py"):
+            print(f"Запускаем Python-скрипт: {script}")
+            subprocess.run(["python", os.path.abspath(script)], check=True)
         else:
-            print(f"Ошибка: Файл {script} не найден.")
+            print(f"Неизвестный тип файла: {script}")
+
 
 if __name__ == "__main__":
     run_as_admin()

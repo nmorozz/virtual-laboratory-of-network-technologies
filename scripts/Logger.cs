@@ -6,6 +6,16 @@ public class Logger : MonoBehaviour
 {
     public static Logger Instance { get; private set; }
 
+    public enum LogLevel
+    {
+        Info,
+        Warning,
+        Error,
+        Traffic // добавим для трафика
+    }
+
+    public LogLevel currentLogLevel = LogLevel.Info;
+
     private List<string> logs = new List<string>();
 
     private void Awake()
@@ -21,15 +31,11 @@ public class Logger : MonoBehaviour
         }
     }
 
-    public enum LogLevel
-    {
-        Info,
-        Warning,
-        Error
-    }
-
     public void Log(string message, LogLevel level = LogLevel.Info)
     {
+        if (level < currentLogLevel)
+            return;
+
         string timeStamp = DateTime.Now.ToString("HH:mm:ss");
         string entry = $"[{timeStamp}] [{level}] {message}";
 
@@ -46,7 +52,15 @@ public class Logger : MonoBehaviour
             case LogLevel.Error:
                 Debug.LogError(entry);
                 break;
+            case LogLevel.Traffic:
+                Debug.Log(entry); // или не выводить в консоль, если нужно
+                break;
         }
+    }
+
+    public void SetLogLevel(LogLevel level)
+    {
+        currentLogLevel = level;
     }
 
     public void Clear()
