@@ -1,0 +1,1654 @@
+eth → Родитель: provod2 (1)
+UnityEngine.Debug:Log (object)
+ParentDebugger:Start () (at Assets/scripts/ParentDebugger.cs:12)
+
+eth → Root (самый верхний): provod2 (1)
+UnityEngine.Debug:Log (object)
+ParentDebugger:Start () (at Assets/scripts/ParentDebugger.cs:21)
+
+eth → Родитель: provod2
+UnityEngine.Debug:Log (object)
+ParentDebugger:Start () (at Assets/scripts/ParentDebugger.cs:12)
+
+eth → Root (самый верхний): provod2
+UnityEngine.Debug:Log (object)
+ParentDebugger:Start () (at Assets/scripts/ParentDebugger.cs:21)
+
+path → Родитель: provod2
+UnityEngine.Debug:Log (object)
+ParentDebugger:Start () (at Assets/scripts/ParentDebugger.cs:12)
+
+path → Root (самый верхний): provod2
+UnityEngine.Debug:Log (object)
+ParentDebugger:Start () (at Assets/scripts/ParentDebugger.cs:21)
+
+path → Родитель: provod2 (1)
+UnityEngine.Debug:Log (object)
+ParentDebugger:Start () (at Assets/scripts/ParentDebugger.cs:12)
+
+path → Root (самый верхний): provod2 (1)
+UnityEngine.Debug:Log (object)
+ParentDebugger:Start () (at Assets/scripts/ParentDebugger.cs:21)
+
+Start: screenRight (1)
+UnityEngine.Debug:Log (object)
+button:Start () (at Assets/scripts/button.cs:27)
+
+DHCPClient MAC: 02-00-00-00-00-10
+UnityEngine.Debug:Log (object)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:40)
+
+DHCPClient on screenRight (1), порт 10
+UnityEngine.Debug:Log (object)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:49)
+
+[SwitchSimulator] IP 192.168.20.101 зарегистрирован за портом 10
+UnityEngine.Debug:Log (object)
+SwitchSimulator:RegisterClientIP (int,string) (at Assets/scripts/SwitchSimulator.cs:171)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:57)
+
+[MANUAL] IP из инспектора: 192.168.20.101
+UnityEngine.Debug:Log (object)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:65)
+
+Запущен DHCPClient
+UnityEngine.Debug:Log (object)
+Admin:RunScripts () (at Assets/scripts/Admin.cs:25)
+Admin:Start () (at Assets/scripts/Admin.cs:13)
+
+Запущен DHCPHandler
+UnityEngine.Debug:Log (object)
+Admin:RunScripts () (at Assets/scripts/Admin.cs:25)
+Admin:Start () (at Assets/scripts/Admin.cs:13)
+
+Запущен DHCPServer
+UnityEngine.Debug:Log (object)
+Admin:RunScripts () (at Assets/scripts/Admin.cs:25)
+Admin:Start () (at Assets/scripts/Admin.cs:13)
+
+Start: GameObject (1)
+UnityEngine.Debug:Log (object)
+button:Start () (at Assets/scripts/button.cs:27)
+
+terminalButton не назначен!
+UnityEngine.Debug:LogWarning (object)
+button:Start () (at Assets/scripts/button.cs:29)
+
+webButton не назначен!
+UnityEngine.Debug:LogWarning (object)
+button:Start () (at Assets/scripts/button.cs:30)
+
+commandButton не назначен!
+UnityEngine.Debug:LogWarning (object)
+button:Start () (at Assets/scripts/button.cs:31)
+
+backButton не назначен!
+UnityEngine.Debug:LogWarning (object)
+button:Start () (at Assets/scripts/button.cs:32)
+
+inputField не назначен!
+UnityEngine.Debug:LogWarning (object)
+button:Start () (at Assets/scripts/button.cs:33)
+
+outputText не назначен!
+UnityEngine.Debug:LogWarning (object)
+button:Start () (at Assets/scripts/button.cs:34)
+
+NullReferenceException: Object reference not set to an instance of an object
+button.Start () (at Assets/scripts/button.cs:36)
+
+Ошибка: server.js не найден!
+UnityEngine.Debug:LogError (object)
+SwitchController:StartServer () (at Assets/DLink-Emulator/SwitchController.cs:28)
+SwitchController:Start () (at Assets/DLink-Emulator/SwitchController.cs:17)
+
+CableConnection найден на объекте: provod2 (1)
+UnityEngine.Debug:Log (object)
+mesto:OnTriggerEnter (UnityEngine.Collider) (at Assets/scripts/mesto.cs:70)
+
+object2 установлен
+UnityEngine.Debug:Log (object)
+CableConnection:NotifyObjectPlaced (UnityEngine.GameObject) (at Assets/scripts/CableConnection.cs:32)
+mesto:OnTriggerEnter (UnityEngine.Collider) (at Assets/scripts/mesto.cs:71)
+
+CableConnection не найден у объекта или его родителей: eth
+UnityEngine.Debug:LogWarning (object)
+mesto:OnTriggerEnter (UnityEngine.Collider) (at Assets/scripts/mesto.cs:75)
+
+CableConnection не найден у объекта или его родителей: eth
+UnityEngine.Debug:LogWarning (object)
+mesto:OnTriggerEnter (UnityEngine.Collider) (at Assets/scripts/mesto.cs:75)
+
+CableConnection не найден у объекта или его родителей: ImageToStl.com_db9 males
+UnityEngine.Debug:LogWarning (object)
+mesto:OnTriggerEnter (UnityEngine.Collider) (at Assets/scripts/mesto.cs:75)
+
+CableConnection не найден у объекта или его родителей: imagetostl_mesh0.001
+UnityEngine.Debug:LogWarning (object)
+mesto:OnTriggerEnter (UnityEngine.Collider) (at Assets/scripts/mesto.cs:75)
+
+CableConnection найден на объекте: provod2
+UnityEngine.Debug:Log (object)
+mesto:OnTriggerEnter (UnityEngine.Collider) (at Assets/scripts/mesto.cs:70)
+
+object2 установлен
+UnityEngine.Debug:Log (object)
+CableConnection:NotifyObjectPlaced (UnityEngine.GameObject) (at Assets/scripts/CableConnection.cs:32)
+mesto:OnTriggerEnter (UnityEngine.Collider) (at Assets/scripts/mesto.cs:71)
+
+CableConnection не найден у объекта или его родителей: ImageToStl.com_db9 males
+UnityEngine.Debug:LogWarning (object)
+mesto:OnTriggerEnter (UnityEngine.Collider) (at Assets/scripts/mesto.cs:75)
+
+CableConnection найден на объекте: provod2 (1)
+UnityEngine.Debug:Log (object)
+mesto:OnTriggerEnter (UnityEngine.Collider) (at Assets/scripts/mesto.cs:70)
+
+object1 установлен
+UnityEngine.Debug:Log (object)
+CableConnection:NotifyObjectPlaced (UnityEngine.GameObject) (at Assets/scripts/CableConnection.cs:27)
+mesto:OnTriggerEnter (UnityEngine.Collider) (at Assets/scripts/mesto.cs:71)
+
+Оба объекта установлены — соединение завершено
+UnityEngine.Debug:Log (object)
+CableConnection:SetConnectedColor () (at Assets/scripts/CableConnection.cs:47)
+CableConnection:NotifyObjectPlaced (UnityEngine.GameObject) (at Assets/scripts/CableConnection.cs:38)
+mesto:OnTriggerEnter (UnityEngine.Collider) (at Assets/scripts/mesto.cs:71)
+
+CableConnection найден на объекте: provod2
+UnityEngine.Debug:Log (object)
+mesto:OnTriggerEnter (UnityEngine.Collider) (at Assets/scripts/mesto.cs:70)
+
+object1 установлен
+UnityEngine.Debug:Log (object)
+CableConnection:NotifyObjectPlaced (UnityEngine.GameObject) (at Assets/scripts/CableConnection.cs:27)
+mesto:OnTriggerEnter (UnityEngine.Collider) (at Assets/scripts/mesto.cs:71)
+
+Оба объекта установлены — соединение завершено
+UnityEngine.Debug:Log (object)
+CableConnection:SetConnectedColor () (at Assets/scripts/CableConnection.cs:47)
+CableConnection:NotifyObjectPlaced (UnityEngine.GameObject) (at Assets/scripts/CableConnection.cs:38)
+mesto:OnTriggerEnter (UnityEngine.Collider) (at Assets/scripts/mesto.cs:71)
+
+CableConnection не найден у объекта или его родителей: ImageToStl.com_db9 males
+UnityEngine.Debug:LogWarning (object)
+mesto:OnTriggerEnter (UnityEngine.Collider) (at Assets/scripts/mesto.cs:75)
+
+DHCPClient MAC: 02-00-00-00-00-00
+UnityEngine.Debug:Log (object)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:40)
+
+DHCPClient [GameObject (1)]: назначен portNumber = 1
+UnityEngine.Debug:Log (object)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:46)
+
+DHCPClient on GameObject (1), порт 1
+UnityEngine.Debug:Log (object)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:49)
+
+DHCP Server Started...
+UnityEngine.Debug:Log (object)
+DHCPServer:Start () (at Assets/scripts/DHCPServer.cs:22)
+
+NullReferenceException: Object reference not set to an instance of an object
+SwitchController+<GetSwitchData>d__4.MoveNext () (at Assets/DLink-Emulator/SwitchController.cs:61)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <ba783288ca164d3099898a8819fcec1c>:0)
+
+Start: screenRight
+UnityEngine.Debug:Log (object)
+button:Start () (at Assets/scripts/button.cs:27)
+
+DHCPClient MAC: 02-00-00-00-00-01
+UnityEngine.Debug:Log (object)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:40)
+
+DHCPClient on screenRight, порт 1
+UnityEngine.Debug:Log (object)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:49)
+
+[SwitchSimulator] IP 192.168.10.100 зарегистрирован за портом 1
+UnityEngine.Debug:Log (object)
+SwitchSimulator:RegisterClientIP (int,string) (at Assets/scripts/SwitchSimulator.cs:171)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:57)
+
+[MANUAL] IP из инспектора: 192.168.10.100
+UnityEngine.Debug:Log (object)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:65)
+
+Start: screenLeft
+UnityEngine.Debug:Log (object)
+button:Start () (at Assets/scripts/button.cs:27)
+
+DHCPClient MAC: 02-00-00-00-00-09
+UnityEngine.Debug:Log (object)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:40)
+
+DHCPClient on screenLeft, порт 9
+UnityEngine.Debug:Log (object)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:49)
+
+[SwitchSimulator] IP 192.168.20.100 зарегистрирован за портом 9
+UnityEngine.Debug:Log (object)
+SwitchSimulator:RegisterClientIP (int,string) (at Assets/scripts/SwitchSimulator.cs:171)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:57)
+
+[MANUAL] IP из инспектора: 192.168.20.100
+UnityEngine.Debug:Log (object)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:65)
+
+DHCPClient MAC: 02-00-00-00-00-02
+UnityEngine.Debug:Log (object)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:40)
+
+DHCPClient on screenLeft (1), порт 2
+UnityEngine.Debug:Log (object)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:49)
+
+[SwitchSimulator] IP 192.168.10.101 зарегистрирован за портом 2
+UnityEngine.Debug:Log (object)
+SwitchSimulator:RegisterClientIP (int,string) (at Assets/scripts/SwitchSimulator.cs:171)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:57)
+
+[MANUAL] IP из инспектора: 192.168.10.101
+UnityEngine.Debug:Log (object)
+DHCPClient:Start () (at Assets/scripts/DHCPClient.cs:65)
+
+Start: screenLeft (1)
+UnityEngine.Debug:Log (object)
+button:Start () (at Assets/scripts/button.cs:27)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+DHCP-сервер запущен
+UnityEngine.Debug:Log (object)
+DHCPHandler:StartDHCPServer () (at Assets/scripts/DHCPHandler.cs:169)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:587)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > startdhcpserver
+DHCP-сервер запущен.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: startdhcpserver
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan add 10 192.168.10.1
+Назначен IP 192.168.10.1 для интерфейса VLAN 10
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: vlan add 10 192.168.10.1
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Состояние успешно отправлено на сервер.
+UnityEngine.Debug:Log (object)
+SwitchSimulator/<PostToServer>d__46:MoveNext () (at Assets/scripts/SwitchSimulator.cs:264)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan assign 1 10
+Порт 1 добавлен в VLAN 10
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: vlan assign 1 10
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Состояние успешно отправлено на сервер.
+UnityEngine.Debug:Log (object)
+SwitchSimulator/<PostToServer>d__46:MoveNext () (at Assets/scripts/SwitchSimulator.cs:264)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan assign 9 10
+Порт 9 добавлен в VLAN 10
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: vlan assign 9 10
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Состояние успешно отправлено на сервер.
+UnityEngine.Debug:Log (object)
+SwitchSimulator/<PostToServer>d__46:MoveNext () (at Assets/scripts/SwitchSimulator.cs:264)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan tag 10 untagged 1
+VLAN 10: порт 1 добавлен как UNTAGGED
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: vlan tag 10 untagged 1
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan tag 10 untagged 9
+VLAN 10: порт 9 добавлен как UNTAGGED
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: vlan tag 10 untagged 9
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > limit port 1 100
+Ограничение для порта 1: 100 Мбит/с
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: limit port 1 100
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > mirror port 9 1
+Трафик с порта 9 будет зеркалироваться на порт 1
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: mirror port 9 1
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > show run
+--- Таблица коммутации ---
+
+--- VLAN ---
+VLAN 10: Port1, Port9
+
+--- Интерфейсы VLAN (SVI) ---
+VLAN 10: IP 192.168.10.1
+
+--- Нагрузка по портам ---
+
+--- Нагрузка CPU: 0,00%
+
+--- Ограничения скорости ---
+Порт 1: ограничение 100 Мбит/с
+
+--- Зеркалирование портов ---
+Источник: Порт 9 → Зеркало: Порт 1
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: show run
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LOG] Лог очищен.
+UnityEngine.Debug:Log (object)
+Logger:Clear () (at Assets/scripts/Logger.cs:69)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:208)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > clear log
+Лог успешно очищен.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: clear log
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > dhcpdiscover 1
+Не удалось получить IP адрес.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: dhcpdiscover 1
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > dhcpdiscover 9
+Не удалось получить IP адрес.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: dhcpdiscover 9
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > ipconfig
+Информация об IP-адресах интерфейсов:
+
+Интерфейс: Ethernet0
+Описание: Виртуальный адаптер Ethernet
+Тип: Ethernet
+Статус: Включен
+  IP-адрес: 192.168.10.100
+  Маска подсети: 255.255.255.0
+  Шлюз: 192.168.1.1
+  Источник назначения: manual
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: ipconfig
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > ping 192.168.10.100
+Ответ от 192.168.10.100
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: ping 192.168.10.100
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > tracert 192.168.10.100
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+PingHandler:Tracert (string,int) (at Assets/scripts/PingHandler.cs:77)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:470)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: Трассировка маршрута к 192.168.10.100, макс. хопов: 30
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+PingHandler:Tracert (string,int) (at Assets/scripts/PingHandler.cs:78)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:470)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: Трассировка невозможна: устройства в разных VLAN.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+PingHandler/<SimulateTracertCoroutine>d__8:MoveNext () (at Assets/scripts/PingHandler.cs:107)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PingHandler:Tracert (string,int) (at Assets/scripts/PingHandler.cs:80)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:470)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > tracert 192.168.10.100
+Трассировка маршрута до 192.168.10.100...
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: tracert 192.168.10.100
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan assign 25 1
+Порт 25 добавлен в VLAN 1
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: vlan assign 25 1
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Состояние успешно отправлено на сервер.
+UnityEngine.Debug:Log (object)
+SwitchSimulator/<PostToServer>d__46:MoveNext () (at Assets/scripts/SwitchSimulator.cs:264)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > segmentation 1 forward 9
+Сегментация настроена: 1 → 9
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: segmentation 1 forward 9
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan delete 9
+Порты 9 удалены из всех VLAN.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: vlan delete 9
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan add 30 192.168.30.1
+Назначен IP 192.168.30.1 для интерфейса VLAN 30
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: vlan add 30 192.168.30.1
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Состояние успешно отправлено на сервер.
+UnityEngine.Debug:Log (object)
+SwitchSimulator/<PostToServer>d__46:MoveNext () (at Assets/scripts/SwitchSimulator.cs:264)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan add 40
+VLAN 40 создан.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: vlan add 40
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan add 50
+VLAN 50 создан.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: vlan add 50
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan add 60
+VLAN 60 создан.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: vlan add 60
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan add 70
+VLAN 70 создан.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: vlan add 70
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan add 80
+VLAN 80 создан.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: vlan add 80
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan add 90
+VLAN 90 создан.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: vlan add 90
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan add 100
+VLAN 100 создан.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: vlan add 100
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > show run
+--- Таблица коммутации ---
+
+--- VLAN ---
+VLAN 10: Port1
+VLAN 1: Port25
+VLAN 40: 
+VLAN 50: 
+VLAN 60: 
+VLAN 70: 
+VLAN 80: 
+VLAN 90: 
+VLAN 100: 
+
+--- Интерфейсы VLAN (SVI) ---
+VLAN 10: IP 192.168.10.1
+VLAN 30: IP 192.168.30.1
+
+--- Нагрузка по портам ---
+
+--- Нагрузка CPU: 0,00%
+
+--- Ограничения скорости ---
+Порт 1: ограничение 100 Мбит/с
+
+--- Зеркалирование портов ---
+Источник: Порт 9 → Зеркало: Порт 1
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: show run
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan add 20 192.168.20.1
+Назначен IP 192.168.20.1 для интерфейса VLAN 20
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК2] Ввод команды: vlan add 20 192.168.20.1
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Состояние успешно отправлено на сервер.
+UnityEngine.Debug:Log (object)
+SwitchSimulator/<PostToServer>d__46:MoveNext () (at Assets/scripts/SwitchSimulator.cs:264)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan assign 2 20
+Порт 2 добавлен в VLAN 20
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК2] Ввод команды: vlan assign 2 20
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Состояние успешно отправлено на сервер.
+UnityEngine.Debug:Log (object)
+SwitchSimulator/<PostToServer>d__46:MoveNext () (at Assets/scripts/SwitchSimulator.cs:264)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan assign 10 20
+Порт 10 добавлен в VLAN 20
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК2] Ввод команды: vlan assign 10 20
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Состояние успешно отправлено на сервер.
+UnityEngine.Debug:Log (object)
+SwitchSimulator/<PostToServer>d__46:MoveNext () (at Assets/scripts/SwitchSimulator.cs:264)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan tag 20 untagged 2
+VLAN 20: порт 2 добавлен как UNTAGGED
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК2] Ввод команды: vlan tag 20 untagged 2
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan tag 20 untagged 10
+VLAN 20: порт 10 добавлен как UNTAGGED
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК2] Ввод команды: vlan tag 20 untagged 10
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > dhcpdiscover 2
+Не удалось получить IP адрес.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК2] Ввод команды: dhcpdiscover 2
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > dhcpdiscover 10
+Не удалось получить IP адрес.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК2] Ввод команды: dhcpdiscover 10
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > ipconfig
+Информация об IP-адресах интерфейсов:
+
+Интерфейс: Ethernet0
+Описание: Виртуальный адаптер Ethernet
+Тип: Ethernet
+Статус: Включен
+  IP-адрес: 192.168.20.100
+  Маска подсети: 255.255.255.0
+  Шлюз: 192.168.1.1
+  Источник назначения: manual
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК2] Ввод команды: ipconfig
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan assign 3 10
+Порт 3 добавлен в VLAN 10
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК3] Ввод команды: vlan assign 3 10
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Состояние успешно отправлено на сервер.
+UnityEngine.Debug:Log (object)
+SwitchSimulator/<PostToServer>d__46:MoveNext () (at Assets/scripts/SwitchSimulator.cs:264)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan tag 10 untagged 3
+VLAN 10: порт 3 добавлен как UNTAGGED
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК3] Ввод команды: vlan tag 10 untagged 3
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > dhcpdiscover 3
+Не удалось получить IP адрес.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК3] Ввод команды: dhcpdiscover 3
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > ipconfig
+Информация об IP-адресах интерфейсов:
+
+Интерфейс: Ethernet0
+Описание: Виртуальный адаптер Ethernet
+Тип: Ethernet
+Статус: Включен
+  IP-адрес: 192.168.20.101
+  Маска подсети: 255.255.255.0
+  Шлюз: 192.168.1.1
+  Источник назначения: manual
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК3] Ввод команды: ipconfig
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan assign 4 20
+Порт 4 добавлен в VLAN 20
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК4] Ввод команды: vlan assign 4 20
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Состояние успешно отправлено на сервер.
+UnityEngine.Debug:Log (object)
+SwitchSimulator/<PostToServer>d__46:MoveNext () (at Assets/scripts/SwitchSimulator.cs:264)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > vlan tag 20 untagged 4
+VLAN 20: порт 4 добавлен как UNTAGGED
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК4] Ввод команды: vlan tag 20 untagged 4
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > dhcpdiscover 4
+Не удалось получить IP адрес.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК4] Ввод команды: dhcpdiscover 4
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > ipconfig
+Информация об IP-адресах интерфейсов:
+
+Интерфейс: Ethernet0
+Описание: Виртуальный адаптер Ethernet
+Тип: Ethernet
+Статус: Включен
+  IP-адрес: 192.168.10.101
+  Маска подсети: 255.255.255.0
+  Шлюз: 192.168.1.1
+  Источник назначения: manual
+
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК4] Ввод команды: ipconfig
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > ping 192.168.10.100
+Ответ от 192.168.10.100
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: ping 192.168.10.100
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > tracert 192.168.10.100
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+PingHandler:Tracert (string,int) (at Assets/scripts/PingHandler.cs:77)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:470)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: Трассировка маршрута к 192.168.10.100, макс. хопов: 30
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+PingHandler:Tracert (string,int) (at Assets/scripts/PingHandler.cs:78)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:470)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: Трассировка невозможна: устройства в разных VLAN.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+PingHandler/<SimulateTracertCoroutine>d__8:MoveNext () (at Assets/scripts/PingHandler.cs:107)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PingHandler:Tracert (string,int) (at Assets/scripts/PingHandler.cs:80)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:470)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > tracert 192.168.10.100
+Трассировка маршрута до 192.168.10.100...
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: tracert 192.168.10.100
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > pathping 192.168.10.100
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+PingHandler:Pathping (string,int) (at Assets/scripts/PingHandler.cs:133)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:154)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: Подсчет статистики для 192.168.10.100...
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+PingHandler:Pathping (string,int) (at Assets/scripts/PingHandler.cs:134)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:154)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: Pathping невозможен: устройства находятся в разных VLAN.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+PingHandler/<SimulatePathpingCoroutine>d__10:MoveNext () (at Assets/scripts/PingHandler.cs:161)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PingHandler:Pathping (string,int) (at Assets/scripts/PingHandler.cs:136)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:154)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > pathping 192.168.10.100
+Выполняется pathping до 192.168.10.100...
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК1] Ввод команды: pathping 192.168.10.100
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > ping 192.168.20.100
+Ответ от 192.168.20.100
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК2] Ввод команды: ping 192.168.20.100
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > tracert 192.168.20.100
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+PingHandler:Tracert (string,int) (at Assets/scripts/PingHandler.cs:77)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:470)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: Трассировка маршрута к 192.168.20.100, макс. хопов: 30
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+PingHandler:Tracert (string,int) (at Assets/scripts/PingHandler.cs:78)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:470)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: Трассировка невозможна: устройства в разных VLAN.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+PingHandler/<SimulateTracertCoroutine>d__8:MoveNext () (at Assets/scripts/PingHandler.cs:107)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PingHandler:Tracert (string,int) (at Assets/scripts/PingHandler.cs:80)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:470)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > tracert 192.168.20.100
+Трассировка маршрута до 192.168.20.100...
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК2] Ввод команды: tracert 192.168.20.100
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > pathping 192.168.20.100
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+PingHandler:Pathping (string,int) (at Assets/scripts/PingHandler.cs:133)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:154)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: Подсчет статистики для 192.168.20.100...
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+PingHandler:Pathping (string,int) (at Assets/scripts/PingHandler.cs:134)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:154)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: Pathping невозможен: устройства находятся в разных VLAN.
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+PingHandler/<SimulatePathpingCoroutine>d__10:MoveNext () (at Assets/scripts/PingHandler.cs:161)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PingHandler:Pathping (string,int) (at Assets/scripts/PingHandler.cs:136)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:154)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > pathping 192.168.20.100
+Выполняется pathping до 192.168.20.100...
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК2] Ввод команды: pathping 192.168.20.100
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > ping 192.168.20.100
+Пинг до 192.168.20.100 невозможен — блокировка
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК3] Ввод команды: ping 192.168.20.100
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ProcessInput вызван
+UnityEngine.Debug:Log (object)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:104)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Добавление в outputText: > ping 192.168.10.100
+Пинг до 192.168.10.100 невозможен — блокировка
+UnityEngine.Debug:Log (object)
+Terminal:AddOutput (string) (at Assets/scripts/Terminal.cs:714)
+Terminal:ProcessInput () (at Assets/scripts/Terminal.cs:645)
+UnityEngine.Events.UnityEvent:Invoke ()
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:133)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ПК4] Ввод команды: ping 192.168.10.100
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunCommandsOnPC>d__6:MoveNext () (at Assets/scripts/LabAutomation.cs:134)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Автоматизация] Все команды выполнены.
+UnityEngine.Debug:Log (object)
+LabAutomation/<RunLabScript>d__5:MoveNext () (at Assets/scripts/LabAutomation.cs:125)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
